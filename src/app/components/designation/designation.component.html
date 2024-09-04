@@ -1,0 +1,15 @@
+<div class="row">
+    @for(item of designationList; track $index){
+    <div class="col-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{item.designation}}</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary"> </h6>
+                <a class="card-link">Edit</a>
+                <a class="card-link">Delete</a>
+            </div>
+        </div>
+    </div>
+    }
+
+</div>
